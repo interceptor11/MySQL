@@ -43,11 +43,10 @@ all-rounders in descending order.
                Display columns: bidding status, bid date as year, total bidder’s points
 
 10.	Extract the Bowlers and All Rounders those are in the 5 highest number of wickets.
-Note 
-1. use the performance_dtls column from ipl_player to get the total number of wickets
- 2. Do not use the limit method because it might not give appropriate results when players have the same number of wickets
-3.	Do not use joins in any cases.
-4.	Display the following columns teamn_name, player_name, and player_role.
+Note -  1. use the performance_dtls column from ipl_player to get the total number of wickets
+        2. Do not use the limit method because it might not give appropriate results when players have the same number of wickets
+        3.	Do not use joins in any cases.
+        4.	Display the following columns teamn_name, player_name, and player_role.
 
 11.	show the percentage of toss wins of each bidder and display the results in descending order based on the percentage
 
@@ -56,13 +55,11 @@ Output columns should be like the below:
  Tournment_ID, Tourment_name, Duration column, Duration
 
 13.	Write a query to display to calculate the total points month-wise for the 2017 bid year. sort the results based on total points in descending order and month-wise in ascending order.
-Note: Display the following columns:
-1.	Bidder ID, 2. Bidder Name, 3. bid date as Year, 4. bid date as Month, 5. Total points
+Note: Display the following columns: 1.	Bidder ID, 2. Bidder Name, 3. bid date as Year, 4. bid date as Month, 5. Total points
 Only use joins for the above query queries.
 
 14.	Write a query for the above question using sub queries by having the same constraints as the above question.
 
 15.	Write a query to get the top 3 and bottom 3 bidders based on the total bidding points for the 2018 bidding year.
 Output columns should be:
-like:
-Bidder Id, Ranks (optional), Total points, Highest_3_Bidders --> columns contains name of bidder, Lowest_3_Bidders  --> columns contains name of bidder;
+like: Bidder Id, Ranks (optional), Total points, Highest_3_Bidders --> columns contains name of bidder, Lowest_3_Bidders  --> columns contains name of bidder;
